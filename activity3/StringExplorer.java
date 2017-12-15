@@ -21,6 +21,11 @@ public class StringExplorer
 		System.out.println ("After toLowerCase(), sample = " + sample);
 		
 		//  Try other methods here:
+		System.out.println("sample.indexOf(\"slow\") = " + sample.indexOf("slow"));
+		System.out.println("sample.indexOf(\"he\", 25) = " + sample.indexOf("o", 25));
+		System.out.println("sample.indexOf(\'d\') = " + sample.indexOf('d'));
+		System.out.println("sample.indexOf(\'d\', 35) = " + sample.indexOf('d', 35));
+
 
 	}
 
