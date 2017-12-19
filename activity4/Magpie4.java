@@ -35,7 +35,16 @@ public class Magpie4
 		{
 			response = "Say something, please.";
 		}
-
+		else if (findKeyword(statement, "I like") >= 0)
+		{
+			response = String.format("Would you be happy if you had %s?", statement.substring(7));
+		}
+		else if (findKeyword(statement, "I") >= 0 && 
+				 findKeyword(statement, "you") >= 0 && 
+				 findKeyword(statement, "I") < findKeyword(statement, "you"))
+		{
+			response = String.format("Why do you %s me?", statement.substring(2, statement.length() - 4));
+		}
 		else if (findKeyword(statement, "no") >= 0)
 		{
 			response = "Why so negative?";
