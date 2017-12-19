@@ -264,7 +264,11 @@ public class Magpie5
 	private String [] randomResponses = {"Interesting, tell me more",
 			"Hmmm.",
 			"Do you really think so?",
-			"You don't say."
+			"You don't say.",
+			"Are you really this dumb?",
+			"Wow! So interesting! NOT!",
+			"Press ALT+F4 to activate super magpie mode.",
+			"I've seen elephants who can type better than you."
 	};
 	
 }
