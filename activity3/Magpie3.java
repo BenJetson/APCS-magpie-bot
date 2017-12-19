@@ -45,6 +45,21 @@ public class Magpie3
 		{
 			response = "Tell me more about your family.";
 		}
+		else if (findKeyword(statement, "calculus")) 
+		{
+			response = "Don’t forget to set your calculator to the pure angle measurement unit: degrees!! /s";
+		}
+		else if (findKeyword(statement, "aperture"))
+		{
+			response = "Weighted storage cube destroyed. Please proceed to the Aperture Science Vital Apparatus Vent for a replacement.";
+		}
+		else if (findKeyword(statement, "code"))
+		{
+			response = "I prefer Java.";
+		}
+		else if (findKeyword(statement, "coffee")) {
+			response = "Coffee is essential to life on earth.";
+		}
 		else
 		{
 			response = getRandomResponse();
